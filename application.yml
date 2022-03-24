@@ -1,0 +1,14 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      enable: true
+      show-detail: always
+    shutdown:
+      enable: true
+  info:
+    env:
+      enable: true
